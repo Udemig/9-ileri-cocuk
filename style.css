@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: black;
+  font-family: "Martel Sans";
+}
+.main {
+  background-image: url("./images/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center;
+  background-size: max(1200px, 100vw);
+  background-repeat: no-repeat;
+  height: 644px;
+  position: relative;
+}
+.main .box {
+  position: absolute;
+  height: 644px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.6;
+  top: 0;
+}
+nav {
+  max-width: 80vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  height: 100px;
+}
+nav img {
+  width: 130px;
+  position: relative;
+  z-index: 10;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.hero {
+  display: flex;
+  flex-direction: column;
+  height: 544px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 48px;
+  padding: 0 30px;
+  position: relative;
+}
+.hero > :nth-child(1) {
+  font-size: 28px;
+  font-weight: bolder;
+  text-align: center;
+}
+.hero > :nth-child(2) {
+  font-size: 18px;
+}
+.hero > :nth-child(3) {
+  font-size: 18px;
+}
+.main input {
+  padding: 7px 101px 8px 14px;
+  background-color: rgba(23, 23, 23, 0.7);
+  color: white;
+  border: 1px solid rgba(246, 238, 238, 0.5);
+  outline: none;
+}
+.btn {
+  padding: 3px 8px;
+  font-weight: 400;
+  background-color: rgba(248, 243, 243, 0.021);
+  border-radius: 4px;
+  border: 0.5px solid white;
+  outline: none;
+  color: white;
+  cursor: pointer;
+}
+.btn-red-sm {
+  background-color: red;
+}
+.btn-red {
+  padding: 7px;
+  background-color: red;
+}
+.first {
+  display: flex;
+  color: white;
+  justify-content: center;
+  max-width: 70vw;
+  align-items: center;
+  margin: auto;
+}
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 555px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  right: 10px;
+  top: 51px;
+}
+.first h1 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.first p {
+  font-size: 17px;
+}
+.seperation {
+  height: 7px;
+  background-color: rgb(52, 52, 52);
+}
+.faq {
+  color: white;
+  background: black;
+}
+.faq h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 10px;
+}
+.faqbox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  padding: 24px;
+  margin: 34px auto;
+  max-width: 60vw;
+}
+.faqbox p {
+  font-size: 23px;
+}
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+}
+.footer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-top: 20px;
+  margin-bottom: 30px;
+  gap: 40px;
+}
+.footer-item {
+  display: flex;
+  flex-direction: column;
+  gap: 13px;
+}
+.footer-item a {
+  font-size: 14px;
+  color: white;
+}
+.questions {
+  font-size: 20px;
+}
